@@ -23,7 +23,13 @@
 }
 @font-face {
   font-family: 'Cavatina';
-  src: url('fonts/Cavatina US.otf') format('truetype');
+  src: url('fonts/Cavatina US.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Roboto Slab';
+  src: url('fonts/RobotoSlab.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
