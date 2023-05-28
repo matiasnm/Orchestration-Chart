@@ -21,6 +21,12 @@
   --color-border: #1b1b1b;
   --color-bg: #ffffff;
 }
+@font-face {
+  font-family: 'Cavatina';
+  src: url('fonts/Cavatina US.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
 html {
   height: 100%;
 }
