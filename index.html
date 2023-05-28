@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Orchestration Chart</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav>
+    <a id="theme" href=# title="Change Theme">
+      <svg xmlns="http://www.w3.org/2000/svg" width="4vh" height="4vh" viewBox="0 0 100 100">
+        <circle cx="32%" cy="32%" r="16%" fill="#2a9d8f"></circle>
+        <circle cx="77%" cy="32%" r="16%" fill="#e9c46a"></circle>
+        <circle cx="32%" cy="77%" r="16%" fill="#e76f51"></circle>
+      </svg>
+    </a> 
+  </nav>
+  <section id="keyboard">
+    <div class="keyboard"></div>
+  </section>
+
+  <section id="ranges">
+    <div class="ranges" data="group-strings"></div>
+    <div class="ranges" data="group-brass"></div>
+    <div class="ranges" data="group-percussion"></div>
+    <div class="ranges" data="group-woodwinds"></div>
+    <div class="ranges" data="group-voices"></div>
+  </section>
+
+  <section id="grid">
+    <div class="grid">
+
+      <div id="instruments" class="grid-item">
+        <div class="info">Instruments</div>
+        <div class="instruments"></div>
+      </div> 
+
+      <div id="staff" class="grid-item">
+        <div id="info" class="info">
+          Range
+        </div>
+        <div class="staff treble">
+          <span>+ </span>
+          <span id="min" class="minNote hide">A~~</span>
+          
+          <span> </span>
+          <div id="current-va8" class="octava va hide">┌─ 8va</div>
+          <div id="current-va15" class="octava va hide">┌─ 15va</div>
+          <span id="current" class="currentNote hide">G~~</span>
+
+          <span> </span>
+          <div id="va8" class="octava vamax hide">┌─ 8va</div>
+          <div id="va15" class="octava vamax hide">┌─ 15va</div>
+          <span id="max" class="maxNote hide">F~~</span>
+        </div>
+        <div class="staff bass">
+          <span>_ </span>
+          <div id="vb8" class="octava vbmin hide">└─ 8va</div>
+          <div id="vb15" class="octava vbmin hide">└─ 15va</div>
+          <span id="min" class="minNote hide">H~~</span>
+
+          <span> </span>
+          <div id="current-vb8" class="octava vb hide">└─ 8va</div>
+          <div id="current-vb15" class="octava vb hide">└─ 15va</div>
+          <span id="current" class="currentNote">Y~~</span>
+
+          <span> </span>
+          <span id="max" class="maxNote hide">D~~</span>
+        </div>
+      </div>
+
+      <div id="note" class="grid-item">
+        <div class="info">Selected Note:</div>
+        <div class="info list"></div>
+      </div>
+
+    </div>
+  </section>
+
+  <footer id="footer">
+    <div></div>
+  </footer>
+
+</body>
+<script  type="module" src="script.js"></script>
+</html>
