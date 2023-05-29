@@ -1,6 +1,6 @@
 # Orchestration Chart
 
-![Preview][def]
+![Preview](https://matiasnm.github.io/Orchestration-Chart/README.png))
 
 Try it [here](https://matiasnm.github.io/Orchestration-Chart/)
 
@@ -9,4 +9,3 @@ Try it [here](https://matiasnm.github.io/Orchestration-Chart/)
 - Display a list of instruments that are able to play a certain note by clicking on the piano keys.
 - Get the notes range on the staff of any instrument by selecting from the dropdown menus.
 - Select various instruments and compare they ranges with the colored bars over the keyboard.
-[def]: /README.png
