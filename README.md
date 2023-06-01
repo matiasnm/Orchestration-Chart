@@ -1,6 +1,6 @@
 # Orchestration Chart
 
-![Preview](https://matiasnm.github.io/Orchestration-Chart/README.png))
+![Preview](https://matiasnm.github.io/Orchestration-Chart/README.png)
 
 Try it [here](https://matiasnm.github.io/Orchestration-Chart/)
 
@@ -10,4 +10,4 @@ Try it [here](https://matiasnm.github.io/Orchestration-Chart/)
 - Get the notes range on the staff of any instrument by selecting from the dropdown menus.
 - Select various instruments and compare they ranges with the colored bars over the keyboard.
 
-*! NO MOBILE SUPPORT*
+_! NO MOBILE SUPPORT_
