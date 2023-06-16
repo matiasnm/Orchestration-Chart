@@ -42,7 +42,7 @@ export const instruments = {
     },
     "percussion":{
         "celesta":      {"min":"C/ /3",  "max":"C/ /5"},
-        "glockenspiel": {"min":"G/ /3",  "max":"C/ /6"},
+        "glockenspiel": {"min":"G/ /5",  "max":"C/ /8"},
         "marimba":      {"min":"C/ /3",  "max":"C/ /7"},
         "tubular bells":{"min":"C/ /4",  "max":"G/ /5"},
         "vibrafono":    {"min":"F/ /3",  "max":"F/ /6"},
