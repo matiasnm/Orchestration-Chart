@@ -1,6 +1,6 @@
 # Orchestration Chart
 
-![Preview](https://github.com/matiasnm/OrchestrationChart/README.png)
+![Preview](https://github.com/matiasnm/orchestrationChart/blob/master/README.png)
 
 Try it [here](https://matiasnm.github.io/Orchestration-Chart/)
 
